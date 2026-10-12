@@ -27,7 +27,7 @@ curl -X POST http://localhost:8000/webhook \
 
 ## Scope
 
-This first milestone defines the local Ollama bridge. A production deployment still needs a Meta WhatsApp Cloud API adapter, webhook signature verification, outbound delivery, persistence, and rate limiting.
+This first milestone defines the local Ollama bridge. The planned messaging adapter uses a self-hosted WhatsApp Web bridge such as Baileys, not Meta WhatsApp Cloud API. A production deployment still needs authenticated bridge requests, outbound delivery, persistence, reconnection handling, and rate limiting.
 
 ## Quality gates
 
